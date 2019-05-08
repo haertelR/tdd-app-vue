@@ -2,6 +2,10 @@
 
 #tdd-app
 
+Para rodar o app, execute de dentro da pasta do projeto:
+
+    npm run serve
+
 Executar os testes uma única vez
 
     yarn test:unit
