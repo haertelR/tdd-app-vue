@@ -2,14 +2,6 @@
 
 #tdd-app
 
-
-#Aumentar Watchers
-
-caso o comando npm run test:unit:watch dê erro por falta de watchers livres, execute o comando:
-
-    echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-    
-
 Executar os testes uma única vez
 
     yarn test:unit
@@ -17,6 +9,15 @@ Executar os testes uma única vez
 Observar por mudanças nos arquivos e executar os testes
 
     yarn test:unit:watch
+
+
+
+#Aumentar Watchers
+
+caso o comando npm run test:unit:watch dê erro por falta de watchers livres, execute o comando:
+
+    echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+    
 
 Links
 
