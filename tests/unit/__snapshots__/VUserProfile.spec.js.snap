@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfile renders the component 1`] = `
+<div class="user-profile"><img src="https://avatars3.githubusercontent.com/u/20309001?v=4" class="user-profile__avatar">
+  <div class="user-profile__name">
+    RenanHaertel
+  </div>
+  <div class="user-profile__bio">
+    Passionate developer!
+  </div>
+</div>
+`;
