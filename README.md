@@ -20,4 +20,4 @@ Observar por mudanças nos arquivos e executar os testes
 
 Links
 
-<a src="https://medium.com/magnetis-backstage/fazendo-uma-aplica%C3%A7%C3%A3o-em-vue-js-com-tdd-um-guia-extensivo-para-quem-quer-aprender-parte-1-d9952be6a29">Fazendo uma Aplicação em Vue.JS com tdd</a>
+[Fazendo uma aplicação em Vue.js com TDD](https://medium.com/magnetis-backstage/fazendo-uma-aplica%C3%A7%C3%A3o-em-vue-js-com-tdd-um-guia-extensivo-para-quem-quer-aprender-parte-1-d9952be6a29)
