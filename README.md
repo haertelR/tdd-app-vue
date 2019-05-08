@@ -1,34 +1,24 @@
-# tdd-app
+# tdd-app-vue
 
-## Project setup
-```
-npm install
-```
+#tdd-app
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Executar os testes uma única vez
 
-### Compiles and minifies for production
-```
-npm run build
-```
+    yarn test:unit
 
-### Run your tests
-```
-npm run test
-```
+Observar por mudanças nos arquivos e executar os testes
 
-### Lints and fixes files
-```
-npm run lint
-```
+    yarn test:unit:watch
 
-### Run your unit tests
-```
-npm run test:unit
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+#Aumentar Watchers
+
+caso o comando npm run test:unit:watch dê erro por falta de watchers livres, execute o comando:
+
+    echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+    
+
+Links
+
+[Fazendo uma aplicação em Vue.js com TDD](https://medium.com/magnetis-backstage/fazendo-uma-aplica%C3%A7%C3%A3o-em-vue-js-com-tdd-um-guia-extensivo-para-quem-quer-aprender-parte-1-d9952be6a29)
